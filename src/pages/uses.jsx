@@ -41,36 +41,37 @@ export default function Uses() {
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
-            <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-              I was using an Intel-based 16” MacBook Pro prior to this and the
-              difference is night and day. I’ve never heard the fans turn on a
-              single time, even under the incredibly heavy loads I put it
-              through with our various launch simulations.
+            <Tool title="16” MacBook Pro, 6-Core i7, 32GB RAM (2019)">
+              Believe it or not, before I was using the MacBook, I was a PC 
+              person. I still can't believe I used a PC all those years as it
+              hindered my development speed dramatically. Once you go Mac, you
+              never go back 😉.
             </Tool>
-            <Tool title="pple Pro Display XDR (Standard Glass)">
-              bigger than 27”. When you’re working at planetary scale, every
-              pixel you can get counts.
+            <Tool title="Viotek 32” display (Standard Glass)">
+              Not the fanciest monitor on the market, but a solid 1080p 
+              monitor nonetheless. When you are designing for the web,
+              every pixel matters.
             </Tool>
-            <Tool title="IBM Model M SSK Industrial Keyboard">
-              They don’t make keyboards the way they used to. I buy these any
-              time I see them go up for sale and keep them in storage in case I
-              need parts or need to retire my main.
+            <Tool title="Apple Magic Keyboard">
+              I used to have an old mechanical keyboard back in the day. While the 
+              clicky feeling and lights were a cool astetic, I was ready for a change. 
+              This keyboard lets me seamlessly go from laptop to keyboard without missing 
+              a beat. 
             </Tool>
             <Tool title="Apple Magic Trackpad">
               Something about all the gestures makes me feel like a wizard with
-              special powers. I really like feeling like a wizard with special
-              powers.
+              special powers. Like my keyboard I really like seamless going from 
+              my MacBook to my trackpad without missing a beat.
             </Tool>
-            <Tool title="Herman Miller Aeron Chair">
+            <Tool title="Autonomous ErgoChair Pro">
               If I’m going to slouch in the worst ergonomic position imaginable
-              all day, I might as well do it in an expensive chair.
+              all day, I might as well do it in a fancy chair.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
-            <Tool title="Sublime Text 4">
-              I don’t care if it’s missing all of the fancy IDE features
-              everyone else relies on, Sublime Text is still the best text
-              editor ever made.
+            <Tool title="Visual Studio Code">
+              I've used Notepad++, Atom, Sublime Text, and now 
+              Visual Studio Code. I will never go back to another IDE.
             </Tool>
             <Tool title="iTerm2">
               I’m honestly not even sure what features I get with this that
@@ -84,31 +85,18 @@ export default function Uses() {
           </ToolsSection>
           <ToolsSection title="Design">
             <Tool title="Figma">
-              We started using Figma as just a design tool but now it’s become
-              our virtual whiteboard for the entire company. Never would have
-              expected the collaboration features to be the real hook.
+              I don't design often, but when I do I reach for Figma.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Productivity">
             <Tool title="Alfred">
               It’s not the newest kid on the block but it’s still the fastest.
-              The Sublime Text of the application launcher world.
+              The Visual Studio Code of the application launcher world.
             </Tool>
-            <Tool title="Reflect">
-              Using a daily notes system instead of trying to keep things
-              organized by topics has been super powerful for me. And with
-              Reflect, it’s still easy for me to keep all of that stuff
-              discoverable by topic even though all of my writing happens in the
-              daily note.
-            </Tool>
-            <Tool title="SavvyCal">
-              Great tool for scheduling meetings while protecting my calendar
-              and making sure I still have lots of time for deep work during the
-              week.
-            </Tool>
-            <Tool title="Focus">
-              Simple tool for blocking distracting websites when I need to just
-              do the work and get some momentum going.
+            <Tool title="Spectacle">
+              I often find myself needing to reach for Spectacle for situations 
+              such as building responsive websites. This allows me to split screen 
+              my editor and the browser so I can work more effienciently.
             </Tool>
           </ToolsSection>
         </div>
