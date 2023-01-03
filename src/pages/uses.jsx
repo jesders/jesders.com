@@ -47,8 +47,7 @@ export default function Uses() {
               single time, even under the incredibly heavy loads I put it
               through with our various launch simulations.
             </Tool>
-            <Tool title="Apple Pro Display XDR (Standard Glass)">
-              The only display on the market if you want something HiDPI and
+            <Tool title="pple Pro Display XDR (Standard Glass)">
               bigger than 27”. When you’re working at planetary scale, every
               pixel you can get counts.
             </Tool>
