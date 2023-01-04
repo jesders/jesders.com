@@ -43,7 +43,7 @@ export default function Uses() {
           <ToolsSection title="Workstation">
             <Tool title="16” MacBook Pro, 6-Core i7, 32GB RAM (2019)">
               Believe it or not, before I was using the MacBook, I was a PC 
-              person. I still can't believe I used a PC all those years as it
+              person. I still can’t believe I used a PC all those years as it
               hindered my development speed dramatically. Once you go Mac, you
               never go back 😉.
             </Tool>
@@ -70,7 +70,7 @@ export default function Uses() {
           </ToolsSection>
           <ToolsSection title="Development tools">
             <Tool title="Visual Studio Code">
-              I've used Notepad++, Atom, Sublime Text, and now 
+              I’ve used Notepad++, Atom, Sublime Text, and now 
               Visual Studio Code. I will never go back to another IDE.
             </Tool>
             <Tool title="iTerm2">
@@ -85,7 +85,7 @@ export default function Uses() {
           </ToolsSection>
           <ToolsSection title="Design">
             <Tool title="Figma">
-              I don't design often, but when I do I reach for Figma.
+              I don’t design often, but when I do I reach for Figma.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Productivity">
