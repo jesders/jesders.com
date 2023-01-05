@@ -1,0 +1,86 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+
+export const meta = {
+  author: 'Justin Esders',
+  date: '2021-01-21',
+  title: 'What is Tailwind CSS and why should I be using it?',
+  description:
+    'Let’s take a look at what makes Tailwind so great and why it’s our preferred CSS framework at Storyware.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+Tailwind is a utility-first CSS framework that can be leveraged to build any layout directly in your HTML markup, without writing additional CSS. With the recent arrival of the new and improved 2.0 version of Tailwind, now is a great time to start using Tailwind in your projects. Let’s take a look at what makes Tailwind so great and why it’s our preferred CSS framework at Storyware.
+
+## Utility-first CSS
+
+Utility-first CSS refers to the practice of using a set of semantic classes that have one particular purpose, such as setting a background-color or changing font-weight. Naming things can be difficult sometimes, and that is one of the many problems Tailwind solves. Tailwind’s naming conventions are very intuitive, and remembering them has been a breeze in my experience. No longer having to worry about naming things, coupled with the ability to add styles without writing new CSS for each component has improved our velocity immensely. See below for an example:
+
+```
+<!-- Header Example -->
+<header class="px-20 py-40">
+  <h1 class="text-lg font-secondary font-medium tracking-wide">This is my heading</h1>
+</header>
+```
+
+```
+/* Utility Classes */
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.text-lg {
+  font-size: 24px;
+}
+
+.font-secondary {
+  font-family: 'Lato, sans-serif';
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.tracking-wide {
+  letter-spacing: 3px;
+}
+```
+
+The example above is a great use case for utility-first CSS. Thanks to our utility classes, we can completely separate the style of a heading from its semantic meaning. In other words, we can make an h1 look like an h3, or visa versa. This makes it much easier to keep SEO and accessibility in check on a page, regardless of the design that we need to achieve.
+
+## Advantages of using Tailwind CSS and how it can help your development workflow
+
+### Customization and Configuration
+
+Tailwind has been designed from the ground up with customization in mind. Out of the box, Tailwind comes with a default set of utilities ranging from a well-thought-out color palette, to font properties, and more. Tailwind manages its utilities in a tailwind.config.js file, which you may customize as you see fit.
+
+Tailwind is a very un-opinionated framework, in that there are a myriad of ways you can implement its features. There are recommended approaches to help you be efficient, but if you still want to write CSS from scratch you can. We actually still write CSS for our more complicated components, as there are just some things that are too complex to manage by stringing together classes in HTML.
+
+When you do write new CSS in conjunction with Tailwind, you should consider using the @apply directive. It allows you to extrapolate duplicate class names from your HTML markup directly into stylesheets. This is a valuable asset because it allows for the use of Tailwind’s CSS classes, which can later be updated in the previously mentioned tailwind.config.js file instead of writing Vanilla CSS. For example:
+
+```
+.HeadingElement {
+  @apply font-bold font-primary text-black-700 md:hidden hover:text-blue-500;
+}
+```
+
+### Improved Development Velocity
+
+In my opinion, the practice of styling components directly through the HTML markup is the biggest thing that deters developers from using Tailwind. It may seem counterintuitive to add so many class names into your markup. After all, markup is supposed to be DRY ( Don’t Repeat Yourself ). Even though it may look like you are repeating styles throughout the markup, you aren’t. Remember this is a utility-first framework. We may be repeating the classname, but it’s only one style that is declared. There are a couple ways we can help with DRY principals in the markup, such as the previously mentioned @apply directive, using partials, or other types of components that are available in your architecture.
+
+Although the muddied markup may not appear optimal, the pros outweigh the cons. Chaining your classes together in HTML allows you to avoid constantly switching between files while coding.
+
+## How Tailwind is different from other popular CSS frameworks
+
+As developers, most of us have used a framework such as Bootstrap, Foundation, Bulma, or some variation of these at some point in our career. Admittedly, while there isn’t anything wrong with other frameworks, there are a few things that stand out with Tailwind. One of the biggest caveats with using frameworks other than Tailwind is the difficulty in modifying the framework, or even just configuring it. With Tailwind you have all of your predefined styles within a configuration file and it magically adds all of the required class names for you without a sweat.
+
+## Conclusion
+
+I hope this has given you a little more insight on Tailwind and why Storyware uses it in all of our projects. With the Tailwind ecosystem evolving to include things like Tailwind UI, Tailwind Play, and more, now is a great time to switch.
