@@ -66,8 +66,8 @@ export default function About() {
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>As a web developer at Storyware, I build customer-facing web applications on a daily basis.</p>
               <p>I joined Storyware in 2020 as a web developer. I bring over 11 years of web development to the Storyware team, specializing in front-end technologies. I am passionate about responsive workflows, user experience, and delivering high-quality web applications.</p>
-              <p>Before working at Storyware, I worked as a lead front-end developer, where he was in charge of managing all front-end technologies as well as making sure projects were built as efficiently as possible.</p>
-              <p>I currently reside in West Lafayette, Indiana with my wife, son, and 2 dogs, Chip and Thor. Outside of work you can find me golfing, fishing, bowling, collecting Funko Pops or thinking of my next big idea.</p>
+              <p>Before working at Storyware, I worked as a lead front-end developer, where I was in charge of managing all front-end technologies as well as making sure projects were built as efficiently as possible.</p>
+              <p>I currently reside in West Lafayette, Indiana with my wife, son, and 2 dogs. Outside of work you can find me golfing, fishing, bowling, collecting Funko Pops or thinking of my next big idea.</p>
             </div>
           </div>
           <div className="lg:pl-20">

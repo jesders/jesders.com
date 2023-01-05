@@ -60,7 +60,7 @@ export default function Uses() {
             </Tool>
             <Tool title="Apple Magic Trackpad">
               Something about all the gestures makes me feel like a wizard with
-              special powers. Like my keyboard I really like seamless going from 
+              special powers. Like my keyboard I really like the ease of going from 
               my MacBook to my trackpad without missing a beat.
             </Tool>
             <Tool title="Autonomous ErgoChair Pro">
