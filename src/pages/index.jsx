@@ -150,7 +150,7 @@ function Resume() {
     },
     {
       company: 'Pixel Parasol',
-      title: 'Co-Founder, Front-end Developer',
+      title: 'Co-Founder, Frontend Developer',
       logo: logoPixelParasol,
       start: '2019',
       end: {
@@ -160,14 +160,14 @@ function Resume() {
     },
     {
       company: 'Cosmick Technologies',
-      title: 'Front-end Developer',
+      title: 'Frontend Developer',
       logo: logoCosmick,
       start: '2019',
       end: '2020',
     },
     {
       company: 'SFP',
-      title: 'Lead Front-end Developer',
+      title: 'Lead Frontend Developer',
       logo: logoSFP,
       start: '2014',
       end: '2019',
