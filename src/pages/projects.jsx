@@ -23,7 +23,7 @@ const projects = [
     builtFor: 'SFP',
   },
   {
-    name: 'Garmon Construction',
+    name: 'Garmong Construction',
     description:
       'Garmong Construction, a full-service general contractor based in Terre Haute, Indiana, offers a comprehensive range of building and construction services.',
     link: { href: 'http://garmong.net', label: 'garmong.net' },
@@ -72,7 +72,7 @@ const projects = [
     builtFor: 'SFP',
   },
   {
-    name: 'Dorma Huppe',
+    name: 'Dorma Hueppe',
     description:
       'Dorma Hueppe\'s operable partitions and glass wall systems are the best performing and most desired flexible space solution to maximizing interior space and controlling acoustics.',
     link: { href: 'https://www.dorma-hueppe.com/', label: 'dorma-hueppe.com' },
