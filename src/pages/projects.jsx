@@ -3,48 +3,703 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-// import logoAnimaginary from '@/images/logos/animaginary.svg'
-// import logoCosmos from '@/images/logos/cosmos.svg'
-// import logoHelioStream from '@/images/logos/helio-stream.svg'
-// import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-// import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
-  // {
-  //   name: 'Planetaria',
-  //   description:
-  //     'Creating technology to empower civilians to explore space on their own terms.',
-  //   link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-  //   logo: logoPlanetaria,
-  // },
-  // {
-  //   name: 'Animaginary',
-  //   description:
-  //     'High performance web animation library, hand-written in optimized WASM.',
-  //   link: { href: '#', label: 'github.com' },
-  //   logo: logoAnimaginary,
-  // },
-  // {
-  //   name: 'HelioStream',
-  //   description:
-  //     'Real-time video streaming library, optimized for interstellar transmission.',
-  //   link: { href: '#', label: 'github.com' },
-  //   logo: logoHelioStream,
-  // },
-  // {
-  //   name: 'cosmOS',
-  //   description:
-  //     'The operating system that powers our Planetaria space shuttles.',
-  //   link: { href: '#', label: 'github.com' },
-  //   logo: logoCosmos,
-  // },
-  // {
-  //   name: 'OpenShuttle',
-  //   description:
-  //     'The schematics for the first rocket I designed that successfully made it to orbit.',
-  //   link: { href: '#', label: 'github.com' },
-  //   logo: logoOpenShuttle,
-  // },
+  // Pixel Parasol Projects
+  {
+    name: 'Purdue Center for Cancer Research',
+    description:
+      'The Purdue Center for Cancer Research has been fighting cancer for over 40 years. Our mission is discovery. Our goal is to cure cancer.',
+      link: { href: '', label: '' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  
+  // SFP Projects
+  {
+    name: 'Purdue Center for Cancer Research',
+    description:
+      'The Purdue Center for Cancer Research has been fighting cancer for over 40 years. Our mission is discovery. Our goal is to cure cancer.',
+      link: { href: '', label: '' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'The Wireless Guys',
+    description:
+      'Let Wireless Networking Solutions help you stay connected with our many wireless products.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Purdue University Impact',
+    description:
+      'Through collaboration and research-based practices, IMPACT at Purdue creates student-centered teaching and learning environments.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Richardson Plowden',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Fumigation Service &amp; Supply',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'SOAPKCO',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Chyall Pharma',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Central Indiana Rubber',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Cherokee County',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'AWAKE Center',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'David Thompson Labs',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Garmon Construction',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Lafayette Brewing Company',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Insects Limited',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'LoD Offroad',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Roseville Pottery',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Route32 Restorations',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Automated Payroll Services',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Fumigation Zone',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'IU Transgender Surgery',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Play Again Now',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Surepak-12',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'The Blunt Truth',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Online Resources',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Becks Auto Center',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'DAODAS',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Ward Contracting',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Dormakaba',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Now I See',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Leatherneck Hardware',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Illinois Foundation Seeds, Inc',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'O&amp;R Precision Imaging',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Unified Group',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Dorma Huppe - Germany',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Rossville Quilts',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Dorma Huppe - Malaysia',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Trinity UMC',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Modernfold',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: logoModernfold,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Enjoy White County',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Gibson Painting',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'ERMCO',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Punchdrunk Digital',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'ZZ Diesel',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Shoups County Foods',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'ioSafe',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Wintek',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'The Frozen Igloo',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: '130 Agency',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'University Plastic Surgeons',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'CyberPay',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'DT Kirby&#39;s',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Natures Mulch',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Dorma Huppe - Germany',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Aeroscout',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Dandelion Puff',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    // services: ['Development', 'Design', 'Consulting'],
+    // technologies: ['Laravel, WordPress, Whatever'],
+    builtFor: 'SFP',
+  },
+
+// Storyware Projects
+  {
+    name: 'Focused Ultrasound Foundation',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
+  {
+    name: 'Fields Frisco',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
+  {
+    name: 'LoyalBrew',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
+  {
+    name: 'Gotham Gives',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
+  {
+    name: 'Commonwealth Senior Living',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
+  {
+    name: 'Accent Global',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
+  {
+    name: 'Living Central Virginia',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
+  {
+    name: 'AGallery',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
+  {
+    name: 'Storyware',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
+  {
+    name: 'Allied Concrete',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
+  {
+    name: 'Eagle Corporation',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
+  {
+    name: 'Valley Building Supply',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
+  {
+    name: 'New Mexico Museum of Art',
+    description:
+      'Creating technology to empower civilians to explore space on their own terms.',
+    link: { href: 'https://www.nmartmuseum.org/', label: 'nmartmuseum.org' },
+    // logo: projectLogoHere,
+    services: ['Development', 'Design', 'Consulting'],
+    technologies: ['Laravel, Tailwind, Themosis, WordPress'],
+    builtFor: 'Storyware',
+  },
 ]
 
 function LinkIcon(props) {
@@ -65,34 +720,29 @@ export default function Projects() {
         <title>Projects - Justin Esders</title>
         <meta
           name="description"
-          content="Things I’ve made trying to put my dent in the universe."
+          content="Things I’ve made trying to put my dent in the world (wide web 😉)."
         />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        title="Things I’ve made trying to put my dent in the world (wide web 😉)."
+        intro="Throughout my career, I've had the opportunity to work on a diverse range of projects. These featured on my portfolio are the ones that I'm particularly proud of. Some of them were developed for companies I've been affiliated with, so don't hesitate to visit their website and reach out if something catches your eye."
       >
         <ul
           role="list"
           className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
         >
           {projects.map((project) => (
-            <Card as="li" key={project.name}>
-              <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-                <Image
-                  src={project.logo}
-                  alt=""
-                  className="h-8 w-8"
-                  unoptimized
-                />
-              </div>
-              <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project.link.href}>{project.name}</Card.Link>
+            <Card as="li" key={project?.name}>
+              <h2 className="text-base font-semibold text-zinc-800 dark:text-zinc-100">
+                <Card.Link href={project?.link?.href}>{project?.name}</Card.Link>
               </h2>
-              <Card.Description>{project.description}</Card.Description>
+              {/* <p className="mt-1 text-xs font-normal text-zinc-600 dark:text-zinc-600">
+                Built for {project?.builtFor}
+              </p> */}
+              <Card.Description>{project?.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
                 <LinkIcon className="h-6 w-6 flex-none" />
-                <span className="ml-2">{project.link.label}</span>
+                <span className="ml-2">{project?.link?.label}</span>
               </p>
             </Card>
           ))}
