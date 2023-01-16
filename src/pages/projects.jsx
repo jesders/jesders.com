@@ -186,9 +186,9 @@ export default function Projects() {
               <h2 className="text-base font-semibold text-zinc-800 dark:text-zinc-100">
                 <Card.Link href={project?.link?.href}>{project?.name}</Card.Link>
               </h2>
-              {/* <p className="mt-1 text-xs font-normal text-zinc-600 dark:text-zinc-600">
+              <p className="mt-1 text-xs font-normal text-zinc-600 dark:text-zinc-600">
                 Built for {project?.builtFor}
-              </p> */}
+              </p>
               <Card.Description>{project?.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
                 <LinkIcon className="h-6 w-6 flex-none" />
