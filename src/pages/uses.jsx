@@ -54,7 +54,7 @@ export default function Uses() {
             </Tool>
             <Tool title="Apple Magic Keyboard">
               I used to have an old mechanical keyboard back in the day. While the 
-              clicky feeling and lights were a cool astetic, I was ready for a change. 
+              clicky feeling and lights were a cool aesthetic, I was ready for a change. 
               This keyboard lets me seamlessly go from laptop to keyboard without missing 
               a beat. 
             </Tool>
@@ -68,7 +68,7 @@ export default function Uses() {
               all day, I might as well do it in a fancy chair.
             </Tool>
           </ToolsSection>
-          <ToolsSection title="Development tools">
+          <ToolsSection title="Development Tools">
             <Tool title="Visual Studio Code">
               I’ve used Notepad++, Atom, Sublime Text, and now 
               Visual Studio Code. I will never go back to another IDE.
@@ -96,7 +96,7 @@ export default function Uses() {
             <Tool title="Spectacle">
               I often find myself needing to reach for Spectacle for situations 
               such as building responsive websites. This allows me to split screen 
-              my editor and the browser so I can work more effienciently.
+              my editor and the browser so I can work more efficiently.
             </Tool>
           </ToolsSection>
         </div>
