@@ -150,7 +150,7 @@ function Resume() {
     },
     {
       company: 'Pixel Parasol',
-      title: 'Co-Founder, Frontend Developer',
+      title: 'Co-Founder, Front-end Developer',
       logo: logoPixelParasol,
       start: '2019',
       end: {
@@ -160,14 +160,14 @@ function Resume() {
     },
     {
       company: 'Cosmick Technologies',
-      title: 'Frontend Developer',
+      title: 'Front-end Developer',
       logo: logoCosmick,
       start: '2019',
       end: '2020',
     },
     {
       company: 'SFP',
-      title: 'Lead Frontend Developer',
+      title: 'Lead Front-end Developer',
       logo: logoSFP,
       start: '2014',
       end: '2019',
@@ -256,20 +256,20 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Justin Esders - Frontend engineer
+          Justin Esders - Front-end engineer
         </title>
         <meta
           name="description"
-          content="I’m Justin, a frontend engineer based in West Lafayette, IN. I’m the 1/3 founder of Pixel Parasol, where we develop web applications."
+          content="I’m Justin, a front-end engineer based in West Lafayette, IN. I’m the 1/3 founder of Pixel Parasol, where we develop web applications."
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Frontend Engineer.
+            Front-end Engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I’m Justin, a frontend engineer based in West Lafayette, IN. I’m the 1/3 founder of Pixel Parasol, where we develop web applications.
+          I’m Justin, a front-end engineer based in West Lafayette, IN. I’m the 1/3 founder of Pixel Parasol, where we develop web applications.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
