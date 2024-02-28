@@ -50,6 +50,11 @@ export default function Document() {
           type="application/feed+json"
           href={`${process.env.NEXT_PUBLIC_SITE_URL}/rss/feed.json`}
         />
+        <script
+          async
+          src="https://analytics.pixelparasol.com/script.js"
+          data-website-id="d94faf3f-d939-4336-a11a-a9f1c8488406"
+        ></script>
       </Head>
       <body className="flex h-full flex-col bg-zinc-50 dark:bg-black">
         <Main />
