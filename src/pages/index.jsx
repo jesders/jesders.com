@@ -214,7 +214,11 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="/docs/resume.pdf" variant="secondary" className="group mt-6 w-full">
+      <Button
+        href="/docs/resume.pdf"
+        variant="secondary"
+        className="group mt-6 w-full"
+      >
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -224,7 +228,13 @@ function Resume() {
 
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
-  let colors = ['bg-gradient-to-r from-indigo-500 to-indigo-800', 'bg-gradient-to-r from-cyan-500 to-blue-500', 'bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500', 'bg-gradient-to-l from-cyan-500 to-blue-500', 'bg-gradient-to-l from-indigo-500 to-indigo-800']
+  let colors = [
+    'bg-gradient-to-r from-indigo-500 to-indigo-800',
+    'bg-gradient-to-r from-cyan-500 to-blue-500',
+    'bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500',
+    'bg-gradient-to-l from-cyan-500 to-blue-500',
+    'bg-gradient-to-l from-indigo-500 to-indigo-800',
+  ]
 
   return (
     <div className="mt-16 sm:mt-20">
@@ -255,12 +265,10 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>
-          Justin Esders - Front-end engineer
-        </title>
+        <title>Justin Esders - Front-end engineer</title>
         <meta
           name="description"
-          content="I’m Justin, a front-end engineer based in West Lafayette, IN. I’m the 1/3 founder of Pixel Parasol, where we develop web applications."
+          content="I’m Justin, a front-end engineer based in West Lafayette, IN. I’m current a full-time Front-end Engineer at Storyware, and 1/3 owner of Pixel Parasol."
         />
       </Head>
       <Container className="mt-9">
@@ -269,7 +277,9 @@ export default function Home({ articles }) {
             Front-end Engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I’m Justin, a front-end engineer based in West Lafayette, IN. I’m the 1/3 founder of Pixel Parasol, where we develop web applications.
+            I’m Justin, a front-end engineer based in West Lafayette, IN. I’m
+            current a full-time front-end Engineer at Storyware, and 1/3 owner
+            of Pixel Parasol.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
