@@ -37,13 +37,13 @@ export default function Uses() {
       </Head>
       <SimpleLayout
         title="Tech I use, gadgets I love, and other things I recommend."
-        intro="I'm often asked about the tools I use to build software, stay productive, or even the ones I buy to convince myself I'm being productive when I'm actually just procrastinating. Here's a comprehensive list of my favorite tools and gear."
+        intro="I\'m often asked about the tools I use to build software, stay productive, or even the ones I buy to convince myself I'm being productive when I'm actually just procrastinating. Here's a comprehensive list of my favorite tools and gear."
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
             <Tool title="16” MacBook Pro, 6-Core i7, 32GB RAM (2019)">
               Believe it or not, before I was using the MacBook, I was a PC
-              person. I still can’t believe I used a PC all those years as it
+              person. I still can\'t believe I used a PC all those years as it
               hindered my development speed dramatically. Once you go Mac, you
               never go back 😉.
             </Tool>
@@ -98,7 +98,7 @@ export default function Uses() {
           </ToolsSection>
           <ToolsSection title="Productivity">
             <Tool title="Raycast">
-              Although I was a long-time user of Alfred, I've found Raycast to
+              Although I was a long-time user of Alfred, I\'ve found Raycast to
               be a much more proficient tool for my engineering needs.
             </Tool>
             <Tool title="Rectangle">
