@@ -140,7 +140,7 @@ function Resume() {
   let resume = [
     {
       company: 'Storyware',
-      title: 'Web Developer',
+      title: 'Front-end Engineer',
       logo: logoStoryware,
       start: '2020',
       end: {
@@ -150,7 +150,7 @@ function Resume() {
     },
     {
       company: 'Pixel Parasol',
-      title: 'Co-Founder, Front-end Developer',
+      title: 'Co-Founder, Front-end Engineer',
       logo: logoPixelParasol,
       start: '2019',
       end: {
@@ -160,14 +160,14 @@ function Resume() {
     },
     {
       company: 'Cosmick Technologies',
-      title: 'Front-end Developer',
+      title: 'Front-end Engineer',
       logo: logoCosmick,
       start: '2019',
       end: '2020',
     },
     {
       company: 'SFP',
-      title: 'Lead Front-end Developer',
+      title: 'Lead Front-end Engineer',
       logo: logoSFP,
       start: '2014',
       end: '2019',

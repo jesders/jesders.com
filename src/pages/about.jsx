@@ -44,7 +44,7 @@ export default function About() {
         <title>About - Justin Esders</title>
         <meta
           name="description"
-          content="I’m Justin Esders. I live in New York City, where I design the future."
+          content="Hi, I'm Justin Esders a front-end engineer that excels crafting exceptional user experiences."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,27 +61,59 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Justin Esders. I live in West Lafayette, Indiana, where I build enhanced user experiences.
+              Hi, I'm Justin Esders a front-end engineer that excels crafting
+              exceptional user experiences.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>As a web developer at Storyware, I build customer-facing web applications on a daily basis.</p>
-              <p>I joined Storyware in 2020 as a web developer. I bring over 11 years of web development to the Storyware team, specializing in front-end technologies. I am passionate about responsive workflows, user experience, and delivering high-quality web applications.</p>
-              <p>Before working at Storyware, I worked as a lead front-end developer, where I was in charge of managing all front-end technologies as well as making sure projects were built as efficiently as possible.</p>
-              <p>I currently reside in West Lafayette, Indiana with my wife, son, and 2 dogs. Outside of work you can find me golfing, fishing, bowling, collecting Funko Pops or thinking of my next big idea.</p>
+              <p>
+                I bring over 12 years of front-end engineering experience, with
+                a focus on building customer-facing web applications. Throughout
+                my career, I have developed a deep expertise in front-end
+                technologies and have a strong passion for responsive workflows,
+                accessibility, user experience optimization, and delivering
+                high-quality web applications.
+              </p>
+              <p>
+                Prior to my current roles, I worked as a lead front-end
+                engineer, where I managed all front-end technologies and ensured
+                projects were executed efficiently. My professional journey has
+                been driven by a commitment to excellence and a desire to create
+                exceptional user experiences.
+              </p>
+              <p>
+                I currently reside in West Lafayette, Indiana with my wife, son,
+                and 2 dogs. Outside of work you can find me spending time with
+                my family, painting, fishing, or thinking of my next big idea.
+              </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="https://twitter.com/Jesders88" icon={TwitterIcon}>
+              <SocialLink
+                href="https://twitter.com/Jesders88"
+                icon={TwitterIcon}
+              >
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="https://www.instagram.com/justinesders/" icon={InstagramIcon} className="mt-4">
+              <SocialLink
+                href="https://www.instagram.com/justinesders/"
+                icon={InstagramIcon}
+                className="mt-4"
+              >
                 Follow on Instagram
               </SocialLink>
-              <SocialLink href="https://github.com/jesders" icon={GitHubIcon} className="mt-4">
+              <SocialLink
+                href="https://github.com/jesders"
+                icon={GitHubIcon}
+                className="mt-4"
+              >
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href="https://www.linkedin.com/in/justin-esders/" icon={LinkedInIcon} className="mt-4">
+              <SocialLink
+                href="https://www.linkedin.com/in/justin-esders/"
+                icon={LinkedInIcon}
+                className="mt-4"
+              >
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink

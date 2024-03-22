@@ -32,12 +32,12 @@ export default function Uses() {
         <title>Uses - Justin Esders</title>
         <meta
           name="description"
-          content="Software I use, gadgets I love, and other things I recommend."
+          content="Tech I use, gadgets I love, and other things I recommend."
         />
       </Head>
       <SimpleLayout
-        title="Software I use, gadgets I love, and other things I recommend."
-        intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+        title="Tech I use, gadgets I love, and other things I recommend."
+        intro="I'm often asked about the tools I use to build software, stay productive, or even the ones I buy to convince myself I'm being productive when I'm actually just procrastinating. Here's a comprehensive list of my favorite tools and gear."
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
@@ -48,7 +48,7 @@ export default function Uses() {
               never go back 😉.
             </Tool>
             <Tool title="Viotek 32” display (Standard Glass)">
-              Not the fanciest monitor on the market, but a solid 1080p monitor
+              Not the fanciest monitor on the market, but a solid monitor
               nonetheless. When you are designing for the web, every pixel
               matters.
             </Tool>
@@ -75,37 +75,39 @@ export default function Uses() {
             </Tool>
             <Tool title="iTerm2">
               I’m honestly not even sure what features I get with this that
-              aren’t just part of the macOS Terminal but it’s what I use.
+              aren’t just part of the macOS Terminal but it’s what I use
+              (¯\_(ツ)_/¯).
             </Tool>
             <Tool title="TablePlus">
-              Great software for working with databases. Has saved me from
-              building about a thousand admin interfaces for my various projects
-              over the years.
+              TablePlus is my preferred tool for database management, offering a
+              seamless interface and robust features for efficient data
+              handling.
             </Tool>
             <Tool title="Polypane">
-              I always use Polypane. It is very useful for having lots of
-              breakpoints visible at once. This also helps me with accessibility
-              best practices
+              I consistently rely on Polypane for its multi-device display
+              functionality, which ensures responsiveness across platforms.
+              Additionally, its accessibility testing features are invaluable
+              for guaranteeing that my applications are accessible to all users.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Design">
             <Tool title="Figma">
-              I don’t design often, but when I do I reach for Figma.
+              When I need to design, I turn to Figma for its robust capabilities
+              and features.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Productivity">
             <Tool title="Raycast">
-              I used to use Alfred, but have found that Raycast has way more
-              capabilities to be profieient as a developer.
+              Although I was a long-time user of Alfred, I've found Raycast to
+              be a much more proficient tool for my engineering needs.
             </Tool>
             <Tool title="Rectangle">
-              I often find myself needing to reach for Rectangle for situations
-              such as building interfaces. This allows me to split screen my
-              editor and the browser so I can work more efficiently.
+              I often use Rectangle to split-screen my editor and browser, which
+              helps me work more efficiently.
             </Tool>
             <Tool title="Slack">
-              Slack is always a go to to keep in touch with team members with
-              video calls, etc.
+              Slack is my go-to for staying in touch with team members,
+              especially for voice/video calls and other communication needs.
             </Tool>
           </ToolsSection>
         </div>
