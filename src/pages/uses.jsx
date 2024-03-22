@@ -42,26 +42,26 @@ export default function Uses() {
         <div className="space-y-20">
           <ToolsSection title="Workstation">
             <Tool title="16” MacBook Pro, 6-Core i7, 32GB RAM (2019)">
-              Believe it or not, before I was using the MacBook, I was a PC 
+              Believe it or not, before I was using the MacBook, I was a PC
               person. I still can’t believe I used a PC all those years as it
               hindered my development speed dramatically. Once you go Mac, you
               never go back 😉.
             </Tool>
             <Tool title="Viotek 32” display (Standard Glass)">
-              Not the fanciest monitor on the market, but a solid 1080p 
-              monitor nonetheless. When you are designing for the web,
-              every pixel matters.
+              Not the fanciest monitor on the market, but a solid 1080p monitor
+              nonetheless. When you are designing for the web, every pixel
+              matters.
             </Tool>
             <Tool title="Apple Magic Keyboard">
-              I used to have an old mechanical keyboard back in the day. While the 
-              clicky feeling and lights were a cool aesthetic, I was ready for a change. 
-              This keyboard lets me seamlessly go from laptop to keyboard without missing 
-              a beat. 
+              I used to have an old mechanical keyboard back in the day. While
+              the clicky feeling and lights were a cool aesthetic, I was ready
+              for a change. This keyboard lets me seamlessly go from laptop to
+              keyboard without missing a beat.
             </Tool>
             <Tool title="Apple Magic Trackpad">
               Something about all the gestures makes me feel like a wizard with
-              special powers. Like my keyboard I really like the ease of going from 
-              my MacBook to my trackpad without missing a beat.
+              special powers. Like my keyboard I really like the ease of going
+              from my MacBook to my trackpad without missing a beat.
             </Tool>
             <Tool title="Autonomous ErgoChair Pro">
               If I’m going to slouch in the worst ergonomic position imaginable
@@ -70,8 +70,8 @@ export default function Uses() {
           </ToolsSection>
           <ToolsSection title="Development Tools">
             <Tool title="Visual Studio Code">
-              I’ve used Notepad++, Atom, Sublime Text, and now 
-              Visual Studio Code. I will never go back to another IDE.
+              I’ve used Notepad++, Atom, Sublime Text, and now Visual Studio
+              Code. I will never go back to another IDE.
             </Tool>
             <Tool title="iTerm2">
               I’m honestly not even sure what features I get with this that
@@ -82,6 +82,11 @@ export default function Uses() {
               building about a thousand admin interfaces for my various projects
               over the years.
             </Tool>
+            <Tool title="Polypane">
+              I always use Polypane. It is very useful for having lots of
+              breakpoints visible at once. This also helps me with accessibility
+              best practices
+            </Tool>
           </ToolsSection>
           <ToolsSection title="Design">
             <Tool title="Figma">
@@ -89,14 +94,18 @@ export default function Uses() {
             </Tool>
           </ToolsSection>
           <ToolsSection title="Productivity">
-            <Tool title="Alfred">
-              It’s not the newest kid on the block but it’s still the fastest.
-              The Visual Studio Code of the application launcher world.
+            <Tool title="Raycast">
+              I used to use Alfred, but have found that Raycast has way more
+              capabilities to be profieient as a developer.
             </Tool>
-            <Tool title="Spectacle">
-              I often find myself needing to reach for Spectacle for situations 
-              such as building responsive websites. This allows me to split screen 
-              my editor and the browser so I can work more efficiently.
+            <Tool title="Rectangle">
+              I often find myself needing to reach for Rectangle for situations
+              such as building interfaces. This allows me to split screen my
+              editor and the browser so I can work more efficiently.
+            </Tool>
+            <Tool title="Slack">
+              Slack is always a go to to keep in touch with team members with
+              video calls, etc.
             </Tool>
           </ToolsSection>
         </div>

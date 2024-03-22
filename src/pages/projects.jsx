@@ -5,109 +5,28 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 
 const projects = [
-  // Pixel Parasol Projects
+  // Storyware Projects
   {
-    name: 'Agricultural Economic Insights',
+    name: 'National Colorectal Cancer Roundtable',
     description:
-      'A more refined method of tracking, monitoring, and evaluating forecasts over an extended period.',
-      link: { href: 'https://aeipremium.ag', label: 'aeipremium.ag' },
-    builtFor: 'Pixel Parasol',
-  },
-  
-  // SFP Projects
-  {
-    name: 'Central Indiana Rubber',
-    description:
-      'With over 125 years of experience, Central Indiana Rubber is ready to serve you in the manner you expect and deserve.',
-    link: { href: 'https://indianarubber.com/', label: 'indianarubber.com' },
-    builtFor: 'SFP',
+      'The American Cancer Society National Colorectal Cancer Roundtable (ACS NCCRT) is a consortium of public, private, and voluntary organizations that work together to fight colorectal cancer by engaging in research and projects that no one organization can take on alone.',
+    link: { href: 'https://nccrt.org/', label: 'nccrt.org' },
+    builtFor: 'Storyware',
   },
   {
-    name: 'Garmong Construction',
+    name: 'National Lung Cancer Roundtable',
     description:
-      'Garmong Construction, a full-service general contractor based in Terre Haute, Indiana, offers a comprehensive range of building and construction services.',
-    link: { href: 'http://garmong.net', label: 'garmong.net' },
-    builtFor: 'SFP',
+      'The American Cancer Society National Lung Cancer Roundtable (ACS NLCRT) is a consortium of public, private, and voluntary organizations that work together to fight lung cancer by engaging in research and projects that no one organization can take on alone.',
+    link: { href: 'https://nlcrt.org/', label: 'nlcrt.org' },
+    builtFor: 'Storyware',
   },
   {
-    name: 'Automated Payroll Services',
+    name: 'RecRe',
     description:
-      'Take care of payroll, time tracking, reporting, vacation days, HR (benefit enrollment, ACA, onboarding, etc.), and more in Elements—our easy-to-use workforce management software.',
-    link: { href: 'https://apsworkforcemanagement.com/', label: 'apsworkforcemanagement.com' },
-    builtFor: 'SFP',
+      'RecRe is an automated rental platform that enables universities to offer secure rentals to students 24/7, with minimal management.',
+    link: { href: 'https://recrebox.com/', label: 'recrebox.com' },
+    builtFor: 'RecRe',
   },
-  {
-    name: 'Ward Contracting',
-    description:
-      'Ward Contracting & Building Restoration, Inc. is a family-run general contracting and masonry restoration company serving the Chicago metropolitan area since 1976. We are capable of completing all your new construction, remodeling, renovation and restoration projects.',
-    link: { href: 'https://www.wardcontracting.com/', label: 'wardcontracting.com' },
-    builtFor: 'SFP',
-  },
-  {
-    name: 'Illinois Foundation Seeds, Inc',
-    description:
-      'The seed industry\'s leading independent company for sweet corn and field crops research, product development, licensing and production.',
-    link: { href: 'https://www.ifsi.com/', label: 'ifsi.com' },
-    builtFor: 'SFP',
-  },
-  {
-    name: 'O&R Precision Imaging',
-    description:
-      'O&R Precision Imaging offers precision tooling, gauging, and fixturing for various industries utilizing modern equipment and skilled staff.',
-    link: { href: 'https://orprecision.com/', label: 'orprecision.com' },
-    builtFor: 'SFP',
-  },
-  {
-    name: 'Modernfold',
-    description:
-      'Modernfold\’s operable partitions and glass wall systems are the best performing and most desired flexible space solution to maximizing interior space and controlling acoustics.',
-    link: { href: 'http://modernfold.com', label: 'modernfold.com' },
-    builtFor: 'SFP',
-  },
-  {
-    name: 'Skyfold',
-    description:
-      'Skyfold\'s operable partitions and glass wall systems are the best performing and most desired flexible space solution to maximizing interior space and controlling acoustics.',
-    link: { href: 'https://skyfold.com', label: 'skyfold.com' },
-    builtFor: 'SFP',
-  },
-  {
-    name: 'Dorma Hueppe',
-    description:
-      'Dorma Hueppe\'s operable partitions and glass wall systems are the best performing and most desired flexible space solution to maximizing interior space and controlling acoustics.',
-    link: { href: 'https://www.dorma-hueppe.com/', label: 'dorma-hueppe.com' },
-    builtFor: 'SFP',
-  },
-  {
-    name: 'Gibson Painting',
-    description:
-      'Gibson Painting, a family owned and operated business, is Indiana\'s preferred residential and commercial painting contractor. Get a free estimate today!',
-    link: { href: 'https://gibson-painting.com/', label: 'gibson-painting.com' },
-    builtFor: 'SFP',
-  },
-  {
-    name: 'Punchdrunk Digital',
-    description:
-      'PunchDrunk offers a unique approach to strategy, standing out from other agencies that prioritize excel sheets and jargon over tailored solutions. Our team excels in creating distinct strategies for clients, instead of generic and overwhelming options.',
-    link: { href: 'https://punchdrunkdigital.com/', label: 'punchdrunkdigital.com' },
-    builtFor: 'SFP',
-  },
-  {
-    name: 'The Frozen Igloo',
-    description:
-      'The Frozen Igloo is a locally owned small business that takes pride in serving meals made from family recipes handed down for 4 generations, always made fresh to order.',
-    link: { href: 'http://igloofrozencustard.com', label: 'igloofrozencustard.com' },
-    builtFor: 'SFP',
-  },
-  {
-    name: 'DT Kirbys',
-    description:
-      'The original Kirby\'s in Downtown Lafayette. They built their bar with the pure intention of Great Food first, the feel of a corner family bar in the heart of Chicago & the dedication to love of our Chicago teams.',
-    link: { href: 'http://dtkirbys.com', label: 'dtkirbys.com' },
-    builtFor: 'SFP',
-  },
-
-// Storyware Projects
   {
     name: 'LoyalBrew',
     description:
@@ -133,7 +52,10 @@ const projects = [
     name: 'Living Central Virginia',
     description:
       'Charlottesville has been ranked among the top 100 best places to live in America by Livability.com for 2021 and 2022. Discover more about the city and the entire Central Virginia region by visiting their digital publication.',
-    link: { href: 'https://livingcentralva.org/', label: 'livingcentralva.org' },
+    link: {
+      href: 'https://livingcentralva.org/',
+      label: 'livingcentralva.org',
+    },
     builtFor: 'Storyware',
   },
   {
@@ -146,9 +68,125 @@ const projects = [
   {
     name: 'New Mexico Museum of Art',
     description:
-      'The New Mexico Museum of Art is a division of the state\'s Department of Cultural Affairs, part of the Museum of New Mexico System including eight historic sites, and supported by the Museum of New Mexico Foundation for exhibitions and educational programs.',
+      "The New Mexico Museum of Art is a division of the state's Department of Cultural Affairs, part of the Museum of New Mexico System including eight historic sites, and supported by the Museum of New Mexico Foundation for exhibitions and educational programs.",
     link: { href: 'https://www.nmartmuseum.org/', label: 'nmartmuseum.org' },
     builtFor: 'Storyware',
+  },
+  // Pixel Parasol Projects
+  {
+    name: 'Agricultural Economic Insights',
+    description:
+      'A more refined method of tracking, monitoring, and evaluating forecasts over an extended period.',
+    link: { href: 'https://aeipremium.ag', label: 'aeipremium.ag' },
+    builtFor: 'Pixel Parasol',
+  },
+
+  // SFP Projects
+  {
+    name: 'Central Indiana Rubber',
+    description:
+      'With over 125 years of experience, Central Indiana Rubber is ready to serve you in the manner you expect and deserve.',
+    link: { href: 'https://indianarubber.com/', label: 'indianarubber.com' },
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Garmong Construction',
+    description:
+      'Garmong Construction, a full-service general contractor based in Terre Haute, Indiana, offers a comprehensive range of building and construction services.',
+    link: { href: 'http://garmong.net', label: 'garmong.net' },
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Automated Payroll Services',
+    description:
+      'Take care of payroll, time tracking, reporting, vacation days, HR (benefit enrollment, ACA, onboarding, etc.), and more in Elements—our easy-to-use workforce management software.',
+    link: {
+      href: 'https://apsworkforcemanagement.com/',
+      label: 'apsworkforcemanagement.com',
+    },
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Ward Contracting',
+    description:
+      'Ward Contracting & Building Restoration, Inc. is a family-run general contracting and masonry restoration company serving the Chicago metropolitan area since 1976. We are capable of completing all your new construction, remodeling, renovation and restoration projects.',
+    link: {
+      href: 'https://www.wardcontracting.com/',
+      label: 'wardcontracting.com',
+    },
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Illinois Foundation Seeds, Inc',
+    description:
+      "The seed industry's leading independent company for sweet corn and field crops research, product development, licensing and production.",
+    link: { href: 'https://www.ifsi.com/', label: 'ifsi.com' },
+    builtFor: 'SFP',
+  },
+  {
+    name: 'O&R Precision Imaging',
+    description:
+      'O&R Precision Imaging offers precision tooling, gauging, and fixturing for various industries utilizing modern equipment and skilled staff.',
+    link: { href: 'https://orprecision.com/', label: 'orprecision.com' },
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Modernfold',
+    description:
+      'Modernfold’s operable partitions and glass wall systems are the best performing and most desired flexible space solution to maximizing interior space and controlling acoustics.',
+    link: { href: 'http://modernfold.com', label: 'modernfold.com' },
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Skyfold',
+    description:
+      "Skyfold's operable partitions and glass wall systems are the best performing and most desired flexible space solution to maximizing interior space and controlling acoustics.",
+    link: { href: 'https://skyfold.com', label: 'skyfold.com' },
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Dorma Hueppe',
+    description:
+      "Dorma Hueppe's operable partitions and glass wall systems are the best performing and most desired flexible space solution to maximizing interior space and controlling acoustics.",
+    link: { href: 'https://www.dorma-hueppe.com/', label: 'dorma-hueppe.com' },
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Gibson Painting',
+    description:
+      "Gibson Painting, a family owned and operated business, is Indiana's preferred residential and commercial painting contractor. Get a free estimate today!",
+    link: {
+      href: 'https://gibson-painting.com/',
+      label: 'gibson-painting.com',
+    },
+    builtFor: 'SFP',
+  },
+  {
+    name: 'Punchdrunk Digital',
+    description:
+      'PunchDrunk offers a unique approach to strategy, standing out from other agencies that prioritize excel sheets and jargon over tailored solutions. Our team excels in creating distinct strategies for clients, instead of generic and overwhelming options.',
+    link: {
+      href: 'https://punchdrunkdigital.com/',
+      label: 'punchdrunkdigital.com',
+    },
+    builtFor: 'SFP',
+  },
+  {
+    name: 'The Frozen Igloo',
+    description:
+      'The Frozen Igloo is a locally owned small business that takes pride in serving meals made from family recipes handed down for 4 generations, always made fresh to order.',
+    link: {
+      href: 'http://igloofrozencustard.com',
+      label: 'igloofrozencustard.com',
+    },
+    builtFor: 'SFP',
+  },
+  {
+    name: 'DT Kirbys',
+    description:
+      "The original Kirby's in Downtown Lafayette. They built their bar with the pure intention of Great Food first, the feel of a corner family bar in the heart of Chicago & the dedication to love of our Chicago teams.",
+    link: { href: 'http://dtkirbys.com', label: 'dtkirbys.com' },
+    builtFor: 'SFP',
   },
 ]
 
@@ -184,7 +222,9 @@ export default function Projects() {
           {projects.map((project) => (
             <Card as="li" key={project?.name}>
               <h2 className="text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project?.link?.href}>{project?.name}</Card.Link>
+                <Card.Link href={project?.link?.href}>
+                  {project?.name}
+                </Card.Link>
               </h2>
               <p className="mt-1 text-xs font-normal text-zinc-600 dark:text-zinc-600">
                 Built for {project?.builtFor}
