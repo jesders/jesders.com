@@ -268,7 +268,7 @@ export default function Home({ articles }) {
         <title>Justin Esders - Front-end engineer</title>
         <meta
           name="description"
-          content="I’m Justin, a front-end engineer based in West Lafayette, IN. I’m current a full-time Front-end Engineer at Storyware, and 1/3 owner of Pixel Parasol."
+          content="I’m Justin, a front-end engineer based in West Lafayette, IN. I’m current a full-time front-end engineer at Storyware, and 1/3 owner of Pixel Parasol."
         />
       </Head>
       <Container className="mt-9">
@@ -278,7 +278,7 @@ export default function Home({ articles }) {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Justin, a front-end engineer based in West Lafayette, IN. I’m
-            current a full-time front-end Engineer at Storyware, and 1/3 owner
+            current a full-time front-end engineer at Storyware, and 1/3 owner
             of Pixel Parasol.
           </p>
           <div className="mt-6 flex gap-6">
