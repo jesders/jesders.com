@@ -44,7 +44,7 @@ export default function About() {
         <title>About - Justin Esders</title>
         <meta
           name="description"
-          content="Hi, I\'m Justin Esders a front-end engineer that excels crafting exceptional user experiences."
+          content="Hi, I am Justin Esders, a front-end engineer that excels crafting exceptional user experiences."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,7 +61,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Hi, I\'m Justin Esders a front-end engineer that excels crafting
+              Hi, I am Justin Esders, a front-end engineer that excels crafting
               exceptional user experiences.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
