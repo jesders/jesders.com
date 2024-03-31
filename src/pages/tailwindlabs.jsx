@@ -110,13 +110,13 @@ export default function Application() {
       <Container className="mt-16 sm:mt-32">
         <div className="prose-invert prose prose-h2:text-zinc-600 prose-p:mt-6 prose-p:space-y-7 prose-p:text-base prose-p:text-zinc-600 prose-blockquote:rounded prose-blockquote:border-l-4 prose-blockquote:border-l-teal-400 prose-blockquote:bg-zinc-50 prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:text-zinc-600 prose-blockquote:shadow-lg prose-blockquote:shadow-zinc-800/5 prose-li:mt-6 prose-li:space-y-7 prose-li:text-base prose-li:text-zinc-600 dark:prose-h2:text-white dark:prose-p:text-zinc-400 dark:prose-blockquote:bg-zinc-800/50 dark:prose-blockquote:text-zinc-200 dark:prose-li:text-zinc-400">
           <blockquote>
-            A query walks into a bar. It goes up to two tables and says, "Can I
-            join you?"
+            A query walks into a bar. It goes up to two tables and says,
+            &quot;Can I join you?&quot;
           </blockquote>
           <p>
-            Now that I have broke the ice go on to other stuff. I'm Justin
+            Now that I have broke the ice go on to other stuff. I am Justin
             Esders, based in West Lafayette, Indiana. With over 12 years of
-            experience in front-end engineering, I've cultivated a deep
+            experience in front-end engineering, I have cultivated a deep
             understanding of various technologies. While my expertise extends
             beyond front-end development, I invite you to explore my resume for
             a comprehensive overview of my skills and experiences.
@@ -240,7 +240,7 @@ export default function Application() {
           <p>
             I excel at breaking down complex topics into easily digestible
             concepts, making them accessible to individuals with varying levels
-            of technical expertise. Whether I'm explaining the intricacies of a
+            of technical expertise. Whether I am explaining the intricacies of a
             new technology to a colleague or guiding a team through a project, I
             strive to ensure that everyone understands the topic at hand. My
             patient and supportive approach to teaching has been well-received
