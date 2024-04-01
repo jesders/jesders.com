@@ -271,7 +271,6 @@ export default function Application() {
             that by empowering others with the skills and knowledge they need to
             succeed, we can achieve great things together.
           </p>
-          <hr />
         </div>
       </Container>
     </>
