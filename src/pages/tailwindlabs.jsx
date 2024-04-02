@@ -114,29 +114,39 @@ export default function Application() {
             &quot;Can I join you?&quot;
           </blockquote>
           <p>
-            Now that I have broke the ice go on to other stuff. I am Justin
-            Esders, based in West Lafayette, Indiana. With over 12 years of
-            experience in front-end engineering, I have cultivated a deep
-            understanding of various technologies. While my expertise extends
-            beyond front-end development, I invite you to explore my resume for
-            a comprehensive overview of my skills and experiences.
+            I am Justin Esders, master of dad jokes, based in West Lafayette,
+            Indiana. With over 12 years of experience in front-end engineering,
+            I have cultivated a deep understanding of various technologies.
+            While my focus has mostly been front-end engineering, I invite you
+            to explore my resume for a comprehensive overview of my skills and
+            experiences, which can be found
+            <a href="/docs/resume.pdf" target="_blank">
+              here
+            </a>
+            .
           </p>
           <blockquote>Current Timezone: Eastern (UTC-5)</blockquote>
           <hr />
           <h2>What makes me a great fit?</h2>
           <p>
             I am excited about the opportunity to bring my expertise to the
-            Design Engineer role at Tailwind Labs. With over 12 years of
-            experience in frontend engineering, I have developed a strong skill
-            set that includes creating pixel-perfect designs, ensuring
-            accessibility, and enhancing user experience and interfaces.
+            Design Engineer role at Tailwind Labs. I have a passion for creating
+            pixel-perfect designs, enjoyable user experiences, and intuitive
+            interfaces while also ensuring that my work is accessible to
+            everyone.
           </p>
           <p>
             Throughout my career, I have been dedicated to delivering
             high-quality work and have a keen eye for detail. I excel at
-            translating designs into functional and visually appealing websites,
-            ensuring that every element is precisely placed and that the overall
-            user experience is seamless.
+            translating designs into functional and visually appealing websites
+            and web applications.
+            {/*             
+            I am also passionate about reviewing designs from the point of view of a developer to ensure work is thoughtfully designed.
+            
+            I have been responsible
+            for reviewing preliminary designs to ensure that they can be
+            feasibly executed, and make suggestions for alternatives to improve
+            functionality and asthetic. */}
           </p>
           <p>
             I am passionate about accessibility and believe that technology
@@ -151,7 +161,7 @@ export default function Application() {
             the extra mile to ensure the success of the team and the project.
           </p>
           <p>
-            I am eager to bring my passion for frontend development and my
+            I am eager to bring my passion for front-end engineering and my
             dedication to creating exceptional user experiences to the talented
             team at Tailwind Labs.
           </p>
@@ -225,16 +235,16 @@ export default function Application() {
             community. The prospect of working with an ideal tech stack is
             particularly exciting, as I believe it will not only enable me to
             excel in my contributions but also provide valuable opportunities
-            for professional growth as a developer.
+            for professional growth as an engineer.
           </p>
           <h2>Teaching ability and how I can break down complex topics</h2>
           <p>
             In my previous role as a senior front-end engineer, I took on a
             leadership role, leading collaborative efforts, conducting meetings,
             and providing training on new practices. I was responsible for
-            training interns and new developers on our frontend standards, which
-            I also had a hand in creating. This experience not only honed my
-            leadership skills but also deepened my understanding of how to
+            training interns and new developers on our front-end standards,
+            which I also had a hand in creating. This experience not only honed
+            my leadership skills but also deepened my understanding of how to
             effectively communicate complex technical topics to others.
           </p>
           <p>
@@ -260,7 +270,7 @@ export default function Application() {
             in setting up these standards in Asana and have conducted training
             sessions to educate the team on best practices. Additionally, I
             spearheaded the adoption of Polypane, a tool that has significantly
-            sped up our development process and ensured that our work meets the
+            sped up our engineering process and ensured that our work meets the
             highest standards of quality.
           </p>
           <p>
