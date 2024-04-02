@@ -130,40 +130,32 @@ export default function Application() {
           <h2>What makes me a great fit?</h2>
           <p>
             I am excited about the opportunity to bring my expertise to the
-            Design Engineer role at Tailwind Labs. I have a passion for creating
-            pixel-perfect designs, enjoyable user experiences, and intuitive
-            interfaces while also ensuring that my work is accessible to
-            everyone.
+            Design Engineer role at Tailwind Labs. I have a passion for
+            executing designs with pixel perfect attention to detail, enjoyable
+            user experiences, and intuitive interfaces while also ensuring that
+            my work is accessible to everyone. While I don't own loupes, my
+            glasses are +6.00, so I have plenty of magnification 🤓.
           </p>
           <p>
-            Throughout my career, I have been dedicated to delivering
-            high-quality work and have a keen eye for detail. I excel at
-            translating designs into functional and visually appealing websites
-            and web applications.
-            {/*             
-            I am also passionate about reviewing designs from the point of view of a developer to ensure work is thoughtfully designed.
-            
-            I have been responsible
-            for reviewing preliminary designs to ensure that they can be
-            feasibly executed, and make suggestions for alternatives to improve
-            functionality and asthetic. */}
+            I am dedicated to delivering high-quality work and have a keen eye
+            for detail. I excel at translating designs into functional and
+            visually appealing websites and web applications. I think a crucial
+            step in the design process is reviewing and revising a preliminary
+            design with a developers eye to guarantee it can be executed with
+            the desired functionality.
           </p>
           <p>
             I am passionate about accessibility and believe that technology
             should be inclusive and accessible to all users. I have a thorough
-            understanding of accessibility standards and best practices and
-            strive to incorporate them into every project I work on.
+            understanding of accessibility standards and best practices, and I
+            strive to incorporate them into every project I am involved in.
           </p>
           <p>
             In addition to my technical skills, I am a committed team player who
-            thrives in collaborative environments. I have a proven track record
-            of working effectively on small teams and am always willing to go
-            the extra mile to ensure the success of the team and the project.
-          </p>
-          <p>
-            I am eager to bring my passion for front-end engineering and my
-            dedication to creating exceptional user experiences to the talented
-            team at Tailwind Labs.
+            thrives in collaborative environments. I have always worked as part
+            of a small team. Communication is crucial for a team and project to
+            be successful, so I prioritize clear and thorough communication with
+            collaborators and clients.
           </p>
           <h2 className="mb-12">Projects I am working on</h2>
           <div className="not-prose">
