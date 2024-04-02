@@ -133,7 +133,7 @@ export default function Application() {
             Design Engineer role at Tailwind Labs. I have a passion for
             executing designs with pixel perfect attention to detail, enjoyable
             user experiences, and intuitive interfaces while also ensuring that
-            my work is accessible to everyone. While I don't own loupes, my
+            my work is accessible to everyone. While I do not own loupes, my
             glasses are +6.00, so I have plenty of magnification 🤓.
           </p>
           <p>
