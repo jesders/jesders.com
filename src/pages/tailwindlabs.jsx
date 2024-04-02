@@ -35,7 +35,7 @@ const favorites = [
   {
     name: 'Gotham Gives',
     description:
-      'I had little design input on this one. I thought it was pretty clean, while still giving the client what they wanted. More importantly, this was one of the first accessibility audits I ever did on a site. Unfortunately, the headings are not in order as they should be, but I can’t control that, as the client updates the site pretty regularly.A football stat tracking app for getting recruited.',
+      'I had little design input on this one. I thought it was pretty clean, while still giving the client what they wanted. More importantly, this was one of the first accessibility audits I ever did on a site. Unfortunately, the headings are not in order as they should be, but I can’t control that, as the client updates the site pretty regularly.',
     link: {
       href: 'https://gothamgives.org/',
       label: 'gothamgives.org/',
@@ -44,7 +44,7 @@ const favorites = [
   {
     name: 'National Lung Cancer Roundtable',
     description:
-      'I was pretty happy to work on this and help out the American Cancer Society. I did multiple sites for them at my current job, and accessibility was put as a consideration on this one when I built it. Score isn’t what I would like, but lots of that is on the client',
+      'I was pretty happy to work on this and support the American Cancer Society. I did multiple sites for them at my current job, and accessibility was put as a consideration on this one when I built it. Score isn’t what I would like, but lots of that is on the client',
     link: {
       href: 'https://nlcrt.org',
       label: 'nlcrt.org',
@@ -62,7 +62,7 @@ const favorites = [
   {
     name: 'Igloo Frozen Custard',
     description:
-      'Not proud of how it was maintained since I am not at the company I was at when I built this, but I was pretty happy about the subtle animations, and the one of my first video hero’s.',
+      'I like the subtle animations, and this was one of my first video banners. I built this in [previous year] with my previous employer and it has not been mainted properly. <------- Not proud of how it was maintained since I am not at the company I was at when I built this, but I was pretty happy about the subtle animations, and the one of my first video hero’s.',
     link: {
       href: 'https://igloofrozencustard.com',
       label: 'igloofrozencustard.com',
@@ -120,8 +120,8 @@ export default function Application() {
             Indiana. With over 12 years of experience in front-end engineering,
             I have cultivated a deep understanding of various technologies.
             While my focus has mostly been front-end engineering, I invite you
-            to explore my resume for a comprehensive overview of my skills and
-            experiences, which can be found{' '}
+            to explore my resume&apos; for a comprehensive overview of my skills
+            and experiences, which can be found{' '}
             <a href="/docs/resume.pdf" target="_blank">
               here
             </a>
@@ -143,7 +143,7 @@ export default function Application() {
             for detail. I excel at translating designs into functional and
             visually appealing websites and web applications. I think a crucial
             step in the design process is reviewing and revising a preliminary
-            design with a developers eye to guarantee it can be executed with
+            design with an engineer's eye to guarantee it can be executed with
             the desired functionality.
           </p>
           <p>
@@ -190,12 +190,13 @@ export default function Application() {
             some projects, I faced challenges making the entire final product
             exactly what I envisioned because of limitations set by the clients
             or upper management. Nonetheless, there are projects and features
-            that I am particularly proud of. For a more extensive list of
-            projects that turned out well, check{' '}
+            that I am particularly proud of. Below are some highlights, but for
+            a more extensive list of projects that turned out well, you can
+            check{' '}
             <a href="/projects" target="_blank">
               this
             </a>{' '}
-            out. Below are some highlights.
+            out.
           </p>
           <div className="not-prose">
             <ul
@@ -243,7 +244,7 @@ export default function Application() {
           </p>
           <p>
             I excel at breaking down complex topics into easily digestible
-            concepts, making them understandable for individuals with varying
+            concepts and making them understandable for individuals with varying
             levels of technical expertise. Whether I am explaining the
             intricacies of a new technology to a colleague or guiding a team
             through a project, I strive to ensure that everyone understands the
@@ -252,7 +253,7 @@ export default function Application() {
             develop their skills and achieve their goals.
           </p>
           <p>
-            In addition, I have written a lot of documentation, which has been
+            Additionally, I have written a lot of documentation, which has been
             instrumental in assuring that our team follows best practices and
             maintains a high standard of quality in our work.
           </p>
@@ -260,8 +261,8 @@ export default function Application() {
             In my current role, I am responsible for educating the team about
             accessibility and advocating for and implementing standards that
             ensure our products are accessible to all users. I set up the
-            standards and created relevant tasks in Asana so that the standards
-            are met on every project. I also conducted training sessions to
+            standards and create relevant tasks in Asana so that the standards
+            are met on every project. I also conduct training sessions to
             educate the team about best practices. Additionally, I spearheaded
             the adoption of Polypane, a tool that has significantly sped up our
             engineering process and guaranteed that our work meets the highest
