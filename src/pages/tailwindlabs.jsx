@@ -35,7 +35,7 @@ const favorites = [
   {
     name: 'Gotham Gives',
     description:
-      'I had little design input on this one. I thought it was pretty clean, while still giving the client what they wanted. More importantly, this was one of the first accessibility audits I ever did on a site. Unfortunately, the headings are not in order as they should be, but I can’t control that, as the client updates the site pretty regularly.',
+      'I thought it was pretty clean, while still giving the client what they expected. I would have added some transitions on the bars if it was in scope. More importantly, this was one of the first accessibility audits I ever did on a website. Unfortunately, the headings are not in sequential order as they should be, but that is controlled by the client via the CMS.',
     link: {
       href: 'https://gothamgives.org/',
       label: 'gothamgives.org/',
@@ -44,7 +44,7 @@ const favorites = [
   {
     name: 'National Lung Cancer Roundtable',
     description:
-      'I was pretty happy to work on this and support the American Cancer Society. I did multiple sites for them at my current job, and accessibility was put as a consideration on this one when I built it. Score isn’t what I would like, but lots of that is on the client',
+      'I was pretty happy to work on this and support the American Cancer Society. I did multiple websites for them at my current role at Storyware, and accessibility was a big consideration when building the websites.',
     link: {
       href: 'https://nlcrt.org',
       label: 'nlcrt.org',
@@ -53,7 +53,7 @@ const favorites = [
   {
     name: 'Storyware',
     description:
-      'Designed and built the hero on this one and implemented animations. Sure they aren’t crazy, but I was pretty happy.',
+      'I built the homepage hero on the fly. I also implemented some subtle animations across the website.',
     link: {
       href: 'https://storyware.co',
       label: 'storyware.co',
@@ -62,7 +62,7 @@ const favorites = [
   {
     name: 'Igloo Frozen Custard',
     description:
-      'I like the subtle animations, and this was one of my first video banners. I built this in [previous year] with my previous employer and it has not been mainted properly. <------- Not proud of how it was maintained since I am not at the company I was at when I built this, but I was pretty happy about the subtle animations, and the one of my first video hero’s.',
+      'This website had one of the very first video banners I ever did. I also implemented some subtle hover effects across the site. I built this in over 5 years ago with a previous employer and it has not been maintained properly as some of the css positioning is off with the artistic elements. Overall, this has been one of my favorites through the years.',
     link: {
       href: 'https://igloofrozencustard.com',
       label: 'igloofrozencustard.com',
@@ -71,7 +71,7 @@ const favorites = [
   {
     name: 'Indiana Rubber',
     description:
-      'Not proud of how it was maintained since I am not at the company I was at when I built this, but I was pretty happy about the subtle animations, and the one of my first video hero’s.',
+      'This is an example of a well maintained website I did years ago. While not the flashiest, the website has held up pretty well.',
     link: {
       href: 'https://indianarubber.com/',
       label: 'indianarubber.com/',
@@ -80,7 +80,7 @@ const favorites = [
   {
     name: "DT Kirby's",
     description:
-      'Sometimes not the biggest sites are always the best. In this one, I made the entire site, but I was particularly proud of the banner animation on the homepage. I thought it added a little bit of flare that it wouldn’t otherwise have.',
+      'Sometimes it is nice to work with some local companies. In this one, I developed the entire website, but I was particularly proud of the banner animation on the homepage. I thought it added a little bit of flare that it wouldn’t otherwise have.',
     link: {
       href: 'https://dtkirbys.com',
       label: 'dtkirbys.com/',
