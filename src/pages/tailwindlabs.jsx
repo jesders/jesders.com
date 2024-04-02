@@ -119,7 +119,7 @@ export default function Application() {
             I have cultivated a deep understanding of various technologies.
             While my focus has mostly been front-end engineering, I invite you
             to explore my resume for a comprehensive overview of my skills and
-            experiences, which can be found
+            experiences, which can be found{' '}
             <a href="/docs/resume.pdf" target="_blank">
               here
             </a>
@@ -185,15 +185,15 @@ export default function Application() {
           <h2>Projects I am proud of</h2>
           <p>
             Generally, I am pretty proud of most projects that I take on. During
-            some projects I faced challenges to making the entire final product
+            some projects, I faced challenges making the entire final product
             exactly what I envisioned because of limitations set by the clients
             or upper management. Nonetheless, there are projects and features
             that I am particularly proud of. For a more extensive list of
-            projects that turned out well, see
+            projects that turned out well, check this{' '}
             <a href="/projects" target="_blank">
-              here
+              this
             </a>
-            . Below are some highlights.
+            out. Below are some highlights.
           </p>
           <div className="not-prose">
             <ul
