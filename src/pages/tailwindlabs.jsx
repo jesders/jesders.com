@@ -184,13 +184,16 @@ export default function Application() {
           </div>
           <h2>Projects I am proud of</h2>
           <p>
-            Generally, I am pretty proud of most projects that I take on. I have
-            worked with clients big and small. However, there are always certain
-            challenges, whether from clients, upper management, designers, or
-            other factors, that can sometimes hinder achieving my ideal outcome.
-            Nonetheless, there are a few projects that I am particularly proud
-            of still to this day. My resume has most of the project that I
-            thought turned out good, but below are some of the best IMO.
+            Generally, I am pretty proud of most projects that I take on. During
+            some projects I faced challenges to making the entire final product
+            exactly what I envisioned because of limitations set by the clients
+            or upper management. Nonetheless, there are projects and features
+            that I am particularly proud of. For a more extensive list of
+            projects that turned out well, see
+            <a href="/projects" target="_blank">
+              here
+            </a>
+            . Below are some highlights.
           </p>
           <div className="not-prose">
             <ul
