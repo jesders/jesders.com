@@ -5,15 +5,16 @@ import { Container } from '@/components/Container'
 const projects = [
   {
     name: 'Passhole',
-    description: 'A football stat tracking app for getting recruited.',
+    description: 'A configurable ephemeral secret storage system.',
     link: {
-      href: 'https://passhole.pixelparasol.com/',
-      label: 'passhole.pixelparasol.com/',
+      href: 'https://passhole.org',
+      label: 'passhole.org',
     },
   },
   {
     name: 'Stop The Water Steal',
-    description: 'A local nonprofit ',
+    description:
+      'A local nonprofit organization combatting the steal of water resources in Tippecanoe County.',
     link: {
       href: 'https://stopthewatersteal.demo.pixelparasol.com/',
       label: 'stopthewatersteal.demo.pixelparasol.com/',
@@ -21,7 +22,8 @@ const projects = [
   },
   {
     name: 'Stat Tackler',
-    description: 'A football stat tracking app for getting recruited.',
+    description:
+      'A football statistic tracking application, meant to help get high school students recruited.',
     link: {
       href: '',
       label: '',
@@ -33,7 +35,7 @@ const favorites = [
   {
     name: 'Gotham Gives',
     description:
-      'I had a little design input on this one. I thought it was pretty clean, while still giving the client what they wanted. More importantly, this was one of the first accessibility audits I ever did on a site. Unfortunately, the headings are not in order as they should be, but I can’t control that, as the client updates the site pretty regularly.A football stat tracking app for getting recruited.',
+      'I had little design input on this one. I thought it was pretty clean, while still giving the client what they wanted. More importantly, this was one of the first accessibility audits I ever did on a site. Unfortunately, the headings are not in order as they should be, but I can’t control that, as the client updates the site pretty regularly.A football stat tracking app for getting recruited.',
     link: {
       href: 'https://gothamgives.org/',
       label: 'gothamgives.org/',
@@ -192,7 +194,7 @@ export default function Application() {
             projects that turned out well, check{' '}
             <a href="/projects" target="_blank">
               this
-            </a>
+            </a>{' '}
             out. Below are some highlights.
           </p>
           <div className="not-prose">
@@ -219,9 +221,7 @@ export default function Application() {
               ))}
             </ul>
           </div>
-          <h2>
-            What makes me excited about / what I look forward to in this role?
-          </h2>
+          <h2>What excites me about this role?</h2>
           <p>
             I am enthusiastic about the opportunity at Tailwind Labs, where I
             aspire to contribute to innovative and impactful projects. I look
@@ -232,49 +232,40 @@ export default function Application() {
             excel in my contributions but also provide valuable opportunities
             for professional growth as an engineer.
           </p>
-          <h2>Teaching ability and how I can break down complex topics</h2>
+          <h2>Those who cannot do, teach.</h2>
           <p>
-            In my previous role as a senior front-end engineer, I took on a
-            leadership role, leading collaborative efforts, conducting meetings,
-            and providing training on new practices. I was responsible for
-            training interns and new developers on our front-end standards,
+            In my previous position as a senior front-end engineer, I had a
+            leadership role, which involved teaching junior engineers and
+            interns. I was responsible for training them on front-end standards,
             which I also had a hand in creating. This experience not only honed
             my leadership skills but also deepened my understanding of how to
             effectively communicate complex technical topics to others.
           </p>
           <p>
             I excel at breaking down complex topics into easily digestible
-            concepts, making them accessible to individuals with varying levels
-            of technical expertise. Whether I am explaining the intricacies of a
-            new technology to a colleague or guiding a team through a project, I
-            strive to ensure that everyone understands the topic at hand. My
-            patient and supportive approach to teaching has been well-received
-            by my peers, and I take pride in helping others develop their skills
-            and achieve their goals.
+            concepts, making them understandable for individuals with varying
+            levels of technical expertise. Whether I am explaining the
+            intricacies of a new technology to a colleague or guiding a team
+            through a project, I strive to ensure that everyone understands the
+            topic at hand. My patient and supportive approach to teaching has
+            been well-received by my peers, and I take pride in helping others
+            develop their skills and achieve their goals.
           </p>
           <p>
-            In addition to my teaching and leadership roles, I have written
-            plenty of documentation, which has been instrumental in ensuring
-            that our team follows best practices and maintains a high standard
-            of quality in our work.
+            In addition, I have written a lot of documentation, which has been
+            instrumental in assuring that our team follows best practices and
+            maintains a high standard of quality in our work.
           </p>
           <p>
-            In my current role, I have taken the lead on accessibility
-            initiatives, advocating for and implementing standards that ensure
-            our products are accessible to all users. I have been instrumental
-            in setting up these standards in Asana and have conducted training
-            sessions to educate the team on best practices. Additionally, I
-            spearheaded the adoption of Polypane, a tool that has significantly
-            sped up our engineering process and ensured that our work meets the
-            highest standards of quality.
-          </p>
-          <p>
-            I have also shared my knowledge and insights through blog posts,
-            which you can find [link to blog posts]. I am passionate about
-            sharing my knowledge and expertise with others and am committed to
-            creating a supportive and inclusive learning environment. I believe
-            that by empowering others with the skills and knowledge they need to
-            succeed, we can achieve great things together.
+            In my current role, I am responsible for educating the team about
+            accessibility and advocating for and implementing standards that
+            ensure our products are accessible to all users. I set up the
+            standards and created relevant tasks in Asana so that the standards
+            are met on every project. I also conducted training sessions to
+            educate the team about best practices. Additionally, I spearheaded
+            the adoption of Polypane, a tool that has significantly sped up our
+            engineering process and guaranteed that our work meets the highest
+            standards of quality.
           </p>
         </div>
       </Container>
