@@ -143,7 +143,7 @@ export default function Application() {
             for detail. I excel at translating designs into functional and
             visually appealing websites and web applications. I think a crucial
             step in the design process is reviewing and revising a preliminary
-            design with an engineer&pos;s eye to guarantee it can be executed
+            design with an engineer{"'"}s eye to guarantee it can be executed
             with the desired functionality.
           </p>
           <p>
