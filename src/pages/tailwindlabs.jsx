@@ -189,7 +189,7 @@ export default function Application() {
             exactly what I envisioned because of limitations set by the clients
             or upper management. Nonetheless, there are projects and features
             that I am particularly proud of. For a more extensive list of
-            projects that turned out well, check this{' '}
+            projects that turned out well, check{' '}
             <a href="/projects" target="_blank">
               this
             </a>
